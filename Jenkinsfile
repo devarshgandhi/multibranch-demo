@@ -9,4 +9,7 @@ node {
    stage 'Build'
    // Print Statement
    echo "This is Test Build"
+   
+   stage 'Downstream Job'
+   build job: 'multibranch_demo'
 }
