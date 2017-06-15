@@ -11,5 +11,5 @@ node {
    echo "This is Test Build"
    
    stage 'Downstream Job'
-   build job: 'multibranch_demo'
+   build job: 'multibranch_demo/master'
 }
