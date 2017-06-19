@@ -10,6 +10,7 @@ node {
    // Print Statement
    echo "This is Test Build"
    
-   stage 'Downstream Job'
-   build job: 'devarshgandhi/multibranch-demo-2/master'
+   stage 'Send Email'
+   //print Statement
+   echo "Email with test results and artifacts is sent to the user group"
 }
